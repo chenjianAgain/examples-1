@@ -102,8 +102,8 @@ metadata:
   labels:
     app: guestbook
     tier: frontend
-  annotations:
-    service.beta.kubernetes.io/azure-load-balancer-internal: "true"
+  # annotations:
+  #   service.beta.kubernetes.io/azure-load-balancer-internal: "true"
 spec:
   # comment or delete the following line if you want to use a LoadBalancer
   # type: NodePort 
